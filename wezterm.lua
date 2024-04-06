@@ -13,5 +13,6 @@ config.initial_cols = 140
 config.allow_win32_input_mode = false
 config.font = wezterm.font("JetBrains Mono", { bold = false, italic = false })
 config.hide_tab_bar_if_only_one_tab = true
+config.send_composed_key_when_left_alt_is_pressed = false
 
 return config

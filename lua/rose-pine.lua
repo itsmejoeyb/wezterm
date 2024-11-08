@@ -33,7 +33,8 @@ local inactive_tab = {
 function M.colors()
 	return {
 		foreground = palette.text,
-		background = palette.base,
+		-- background = palette.base,
+		background = "#000000",
 		cursor_bg = palette.highlight_high,
 		cursor_border = palette.highlight_high,
 		cursor_fg = palette.text,
